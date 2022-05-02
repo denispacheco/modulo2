@@ -66,7 +66,7 @@ function paridad(num){
 }
 
 //-----------------------------------------------------------------------
-//implementar un sistema que le repgunte al usuario que operacion matematica desea realizar
+//implementar un sistema que le pregunte al usuario que operacion matematica desea realizar
 //1.- comprobar paridad de un numero
 //2.- calcular el factorial de un número
 //3.- calcular el perimetro de un triangulo
