@@ -1,24 +1,26 @@
 
-var a=0;
-var b="0"
-var c=1;
 
-if (a==b){
-    console.log("todo bien 1");
+let obj={
+    p:"hola",
+    a:123
 }
 
-if(a===b){
-    console.log("todo bien 2");
+console.log(obj.p);
+console.log(obj["p"]);
+
+
+for (o in obj){
+    console.log(obj[o]);
 }
 
-if (a!=b){
-    console.log("son ditintos");
-}else{
-    console.log("son iguales");
+
+let obj2={    
+    uno:"1",
+    dos:"dos"
 }
 
-if (a!==b){
-    console.log("son distintos 2")
-}else{
-    console.log("son iguales 2");
-}
+obj2["texto"]=3;
+console.log(obj2);
+console.dir(obj2);
+console.table(obj2);
+console.log(JSON.stringify(obj2));
