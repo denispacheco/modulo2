@@ -75,6 +75,47 @@ listaUl.appendChild(nuevoLi);
 //un parrafo
 //un link
 
+//crear el titulo
+var nuevoTitulo = document.createElement("h2");
+//darle formato y contenido al elemento recien creado
+nuevoTitulo.innerText="Subtitulo 3"
+
+
+//crear el parrafo
+var nuevoParrafo  = document.createElement("p");
+//damos formato y contenido al nuevo elemento
+nuevoParrafo.innerText=" este es un nuevo texto";
+nuevoParrafo.className="estilo2";
+
+//crear el link
+var link2 = document.createElement("a");
+//damos formato y contenido
+link2.innerText="ver mas...";
+//agregar el link
+link2.setAttribute("href","https://www.marca.com/")
+
+//agregar elementos
+var contenido = document.querySelector("#contenido");
+//prepend los agrega al principio
+contenido.prepend(link2);
+contenido.prepend(nuevoParrafo);
+contenido.prepend(nuevoTitulo);
+
+
+//elimnar elementos
+/* var primerElementoLista = document.querySelector("li");
+listaUl=document.querySelector("ul");
+listaUl.removeChild(primerElementoLista);
+
+//eliminar todos los li
+var todosLi= document.querySelectorAll("li");
+for(i=0;i<todosLi.length;i++){
+    listaUl.removeChild(todosLi[i]);
+}
+ */
+
+
+
 
 
 
